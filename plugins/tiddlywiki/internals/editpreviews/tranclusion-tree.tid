@@ -1,0 +1,10 @@
+title: $:/plugins/tiddlywiki/internals/EditTemplate/body/preview/transclusion-tree
+tags: $:/tags/EditPreview
+caption: transclusion tree
+list-after: $:/plugins/tiddlywiki/internals/EditTemplate/body/preview/widget-tree
+
+\define preview(mode,output)
+<$transclusion-tree mode="$mode$" output="$output$"/>
+\end
+
+{{||$:/plugins/tiddlywiki/internals/EditTemplate/body/preview/shared}}
